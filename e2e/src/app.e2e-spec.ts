@@ -10,7 +10,7 @@ describe('workspace-project App', () => {
 
   it('should display welcome message', () => {
     page.navigateTo();
-    expect(page.getTitleText()).toEqual('Welcome to angular-cli-ng-n-routing-true-style-scss!');
+    expect(page.getTitleText()).toEqual('angular-cli-ng-n-routing-true-style-scss app is running!');
   });
 
   afterEach(async () => {
