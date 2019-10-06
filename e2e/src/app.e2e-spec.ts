@@ -10,7 +10,7 @@ describe('workspace-project App', () => {
 
   it('should display welcome message', () => {
     page.navigateTo();
-    expect(page.getTitleText()).toEqual('angular-cli-ng-n-routing-true-style-scss app is running!');
+    expect(page.getTitleText()).toEqual('angular-cli-ng-n-style-scss-enable-ivy app is running!');
   });
 
   afterEach(async () => {
