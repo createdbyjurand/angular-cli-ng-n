@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'angular-cli-ng-n-style-scss';
+  title = 'angular-cli-ng-n-style-scss-routing-false';
 }
